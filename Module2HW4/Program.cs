@@ -1,8 +1,8 @@
 ﻿namespace Module2HW4
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Safari.Start();
         }

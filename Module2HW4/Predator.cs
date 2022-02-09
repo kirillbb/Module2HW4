@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Module2HW4
+﻿namespace Module2HW4
 {
-    internal class Predator : Animal
+    public class Predator : Animal
     {
+        public Predator(string name, int weightInKilograms, string size, int speed)
+            : base(name, weightInKilograms, size, speed)
+        {
+        }
     }
 }

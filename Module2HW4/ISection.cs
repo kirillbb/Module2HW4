@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Module2HW4
+﻿namespace Module2HW4
 {
-    internal interface ISection
+    public interface ISection
     {
+        public int CountOfAnimals(Animal[] animals);
+        public void PrintSection(Animal[] animals);
     }
 }

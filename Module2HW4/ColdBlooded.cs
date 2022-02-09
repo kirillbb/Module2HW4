@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Module2HW4
 {
-    internal class ColdBlooded : Reptile
+    public class ColdBlooded : Reptile
     {
+        public ColdBlooded(string name, int weightInKilograms, string size, int speed)
+            : base(name, weightInKilograms, size, speed)
+        {
+        }
     }
 }
